@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="home_profile">
+      <img src="https://avatars.githubusercontent.com/u/100975346?v=4" alt="endriwmsi" class="profile_photo">
+
+      <div class="info">
+        <strong>Endriw Schiavenato</strong>
+        <span>Desenvolvedor full-stack.</span>
+      </div>
+
+      <div class="social" style="transform-origin: 50% 50% 0px;">
+        <a href="https://instagram.com/endriwmsi" target="_blank" rel="noreferrer">
+          <img src="assets/img/instagram.svg" alt="Instagram" width="22" height="22">
+        </a>
+        <a href="https://github.com/endriwmsi" target="_blank" rel="noreferrer">
+          <img src="assets/img/github.svg" alt="GitHub" width="22" height="23">
+        </a>
+        <a href="https://www.linkedin.com/in/endriwmsi" target="_blank" rel="noreferrer">
+          <img src="assets/img/linkedin.svg" alt="GitHub" width="22" height="23">
+        </a>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <button class="add_button" id="add-button">+</button>
+    <div class="modal hidden" id="modal">
+      <div class="modal-card">
+
+        <div style="justify-content: end;">
+          <span class="close-button" id="close-button"></span>
+        </div>
+
+        <div class="modal_content">
+          <h2>Adicionar Anotação</h2>
+          <div class="modal_inputs">
+            <input type="text" id="note-title" placeholder="Título">
+            <textarea id="note-text" placeholder="Texto da Anotação"></textarea>
+          </div>
+        </div>
+
+        <button class="modal_button" id="add-note">Adicionar</button>
+      </div>
+    </div>
+
+    <div class="notes-container" id="notes-container">
+      <!-- Aqui vão os artigos -->
+    </div>
+  </main>
+
+  <footer class="styled_footer">
+    <span>Feito com <strong>❤️</strong> Endriw Schiavenato</span>
+  </footer>
+  
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
